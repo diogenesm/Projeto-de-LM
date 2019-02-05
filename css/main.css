@@ -1,0 +1,40 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+    padding: 15px;
+    width: 85%;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    color: black;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 5px auto;
+    padding: 0 15px;
+    background-color: rgb(196, 196, 196);
+}
+.search-box form input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 350px;
+    height: 20px;
+    cursor: text;
+    background-color: rgb(158, 157, 157);
+    padding: 15px;
+    margin: auto;
+    font-size: 1.0rem;
+    color: #acacac;
+}
