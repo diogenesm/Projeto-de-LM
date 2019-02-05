@@ -17,24 +17,37 @@ body{
     font-size: 18px;
     color: black;
 }
-.search-box{
-    display: flex;
-    justify-content: center;
+
+section.page-body{
     width: 85%;
     margin: 5px auto;
-    padding: 0 15px;
-    background-color: rgb(196, 196, 196);
-}
-.search-box form input{
-    border: none;
-    background-color: transparent;
-    outline: none;
-    width: 350px;
-    height: 20px;
-    cursor: text;
-    background-color: rgb(158, 157, 157);
     padding: 15px;
-    margin: auto;
-    font-size: 1.0rem;
-    color: #acacac;
+    background-color: rgb(216, 216, 216);
+}
+
+div.page-title{
+    display: inline-block;
+    background-color: rgb(196, 196, 196);
+    padding: 1px 5px;
+    width: 40%;
+}
+div.button{
+    display: inline-block;
+    background-color: rgb(196, 196, 196);
+    padding: 15px;
+}
+div.button a{
+    text-decoration: none;
+    color: black;
+}
+div.button button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1px 5px;
+}
+div.button:hover{
+    background-color: rgb(128, 128, 128);
+    transition: .3s;
+    cursor: pointer;
 }
